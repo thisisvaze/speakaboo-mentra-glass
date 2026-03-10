@@ -276,7 +276,7 @@ class ExampleMentraOSApp extends AppServer {
       if (button.buttonId === 'DEBUG_LOG') {
         return;
       }
-      if (button.pressType !== 'single' && button.pressType !== 'short' && button.pressType !== 'long') {
+      if (button.pressType !== 'short' && button.pressType !== 'long') {
         return;
       }
 
